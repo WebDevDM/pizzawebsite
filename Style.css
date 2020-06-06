@@ -1,0 +1,252 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#mySidenav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(236, 236, 236);
+    font-weight: 1px;
+    font-family: Impact;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #Home {
+    top: 20px;
+    background-color: #ce6b2e;
+  }
+  
+  #About {
+    top: 80px;
+    background-color: #4c66c5;
+  }
+
+  #More {
+    top: 140px;
+    background-color: #c44e4e;
+  }
+  
+  #Menu {
+    top: 200px;
+    background-color: #b462a4;
+  }
+  
+  #Order {
+    top: 260px;
+    background-color: #72c460
+  }
+
+  #Sec1{
+        background-image: url(Pizza1.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        text-justify: initial;
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-right: -10px;
+        margin-bottom: 0px;
+        padding-left: 300px;
+        padding-top: 300px;
+        padding-right: 300px;
+        height: 100vh;
+        color: black;
+    }
+    
+    #Sec2{
+        background-image: url(Dough1.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        text-justify: initial;
+        margin-left: -10px;
+        margin-top: 0px;
+        margin-right: -10px;
+        margin-bottom: 0px;
+        padding-left: 300px;
+        padding-top: 300px;
+        padding-right: 300px;
+        height: 100vh;
+        color: black;
+    }
+
+    #Sec3{
+        background-image: url(Something.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        text-justify: initial;
+        margin-left: -10px;
+        margin-top: 0px;
+        margin-right: -10px;
+        margin-bottom: 0px;
+        padding-left: 300px;
+        padding-top: 300px;
+        padding-right: 300px;
+        height: 100vh;
+        color: black;
+    }
+
+    #Sec4{
+        background-image: url(Menu.jpg);
+        background-repeat: no-repeat;
+        text-align: center;
+        text-justify: initial;
+        margin-left: -10px;
+        margin-top: 0px;
+        margin-right: -10px;
+        margin-bottom: 0px;
+        padding-left: 300px;
+        padding-top: 10px;
+        padding-right: 300px;
+        height: 100vh;
+        color: black;
+    }
+
+    #Sec5{
+        background-image: url(Order.jpg);
+        background-repeat: no-repeat;
+        text-align: left;
+        text-justify: initial;
+        margin-left: -10px;
+        margin-top: 0px;
+        margin-right: -10px;
+        margin-bottom: -10px;
+        padding-left: 200px;
+        padding-top: 0px;
+        padding-right: 300px;
+        height: 150vh;
+        color: black;
+    }
+
+    .SubHeader{
+        margin-bottom: -15px;  
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    #SecAbout{
+        font-size: 30px; 
+        margin-bottom: 10px;
+    }
+
+    #Fluff{
+        font-size: 30px; 
+        margin-bottom: 10px;
+    }
+
+    #SecMenu{
+        font-size: 30px; 
+        margin-bottom: 10px;
+    }
+
+    #SecOrder{
+        font-size: 30px; 
+        margin-bottom: 10px;
+    }
+
+    #menutable{
+      border-collapse: collapse;
+      background-image: url(MenuWood.jpg);
+      color: rgb(0, 0, 0);
+      text-shadow: rgb(0, 0, 0);
+      text-decoration: black;
+      font-family: Tahoma;
+      font-weight: bold;
+      border-style: outset;
+      border-radius: 4px;
+      border-width: 5px;
+      border-color: rgb(71, 37, 12);
+    }
+
+    .button{
+      transition: 0.3s;
+      background-color: rgb(175, 76, 76);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      border-style: solid;
+      border-color: black;
+      border-width: 3px;
+      border-radius: 2px;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+    .p1c input{
+      float:left;
+    }
+
+    #fieldset01{
+      background-image: url(Orderboard.jpg);
+      border-collapse: collapse;
+      color: rgb(255, 255, 255);
+      text-shadow: rgb(0, 0, 0);
+      text-decoration: black;
+      font-weight: bold;
+      border-style: outset;
+      border-radius: 4px;
+      border-width: 5px;
+      border-color: rgb(71, 37, 12);
+    }
+
+    #fieldset02{
+      background-image: url(Orderboard.jpg);
+      border-collapse: collapse;
+      color: rgb(255, 255, 255);
+      text-shadow: rgb(0, 0, 0);
+      text-decoration: black;
+      font-weight: bold;
+      border-style: outset;
+      border-radius: 4px;
+      border-width: 5px;
+      border-color: rgb(71, 37, 12);
+    }
+
+    tr{
+      height: 50px;
+    }
+
+    #ta1{
+      resize: none;
+      width: 300px;
+      height: 60px;
+    }
+
+    #submitbutton{
+      background-color: rgb(175, 76, 76);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      border-style: solid;
+      border-color: black;
+      border-width: 3px;
+      border-radius: 2px;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+    }
+
+    #cardin1{
+      float: right; 
+      margin-right: 400px;
+    }
+
+    #cardin2{
+      float: right;
+      margin-right: -280px;
+    }

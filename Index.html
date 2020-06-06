@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robbie's Rustic Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="#Sec1" id="Home">Home</a>
+        <a href="#Sec2" id="About">About</a>
+        <a href="#Sec3" id="More">More..</a>
+        <a href="#Sec4" id="Menu">Menu</a>
+        <a href="#Sec5" id="Order">Order</a>
+    </div>
+
+    <section id="Sec1">
+        <h1 style="font-size: 40px; margin-bottom: 10px;"><strong><em><ins>Robbie's Rustic Pizza</ins></em></strong></h1>
+        <h2 class="SubHead">Welcome!</h2>
+        <p>Authentic Glaswegian Pizza delivered all over Glasgow. Cooked in Artisan built wood fired ovens from Fife, our Pizzaioli take pride in adhering to the Dundonian process in production of the dough, to produce the Glesga pizza. Our pizza is a hybrid yeast and sourdough proofed for over 48 hours. The long proofing time together with cooking at an intense heat of 500<sup>o</sup>C produces a moist, light, soft, digestible crust which is aromatic and delicious</p>
+        <a href="#Sec5">Order Now!</a>
+    </section>
+
+    <section id="Sec2">
+        <h1 id="SecAbout"><strong><ins>Always Authentic <em>(to a point)</em>:</ins></strong></h1>
+        <h2 class="SubHeader"><em>You won't find pizza like this almost anywhere!</em></h2>
+        <h2><em>Delicous..</em></h2>
+        <p>We are obsessed with the traditional Glaswegian ways of making pizza.
+            That's why we source everything from Dundee; from the finest ingredients, to our wood-fired pizza ovens that are designed and built in Fife, to the hard chefs in our kitchens who make the triangle bread.</p>
+            <a href="#SecMenu">View Menu</a>
+    </section>
+
+    <section id="Sec3">
+        <h1 id="Fluff"><strong><ins>Something for <em>Most</em> People:</ins></strong></h1>
+        <p>We're proud that our restaurant attracts a number of different customers. Our restaurant is always buzzing with wild chat and exciting queues (not flies) - perfect for grabbing a quick bite with the locals or dropping in with the family for those special "I'm hungry and I don't want to cook" nights.</p>
+        <a href="#SecMenu">View Menu</a>
+    </section>
+
+    <section id="Sec4">
+        <h1 id="SecMenu"><strong><ins>Our Delicious Menu:</ins></strong></h1>
+        <br>
+            <table id="menutable" border="1" align="center">
+                <thead>
+                        <tr> <th height="50px" colspan="2"><em><h2>Take Your Pick!</h2></em></th></tr>
+                        <tr> <th width="600px"><h2>Our Pizzas :</h2></th>
+                </thead>
+                    
+                <tbody>
+                        <tr> <td>Tomato sugo with mozzarella, fresh basil and evoo</td></tr>
+
+                        <tr><td>Tomato sugo with garlic, oregano and evoo</td></tr>
+
+                        <tr><td>Tomato sugo with capers, olives, anchovies, mozzarella, garlic and evoo</td></tr>
+
+                        <tr><td>Spianata spicy salami from Calabria with tomato sugo, mozzarella and evoo</td></tr>
+
+                        <tr><td>Prosciutto cotto (Italian cooked ham) with mushrooms, tomato sugo, mozzarella and evoo</td></tr>
+
+                        <tr><td>Roasted red peppers with spinach, tomato sugo, mozzarella, ricotta and evoo</td></tr>
+
+                        <tr><td>Fresh Tuscan Fennel sausage with sugo, mozzarella and evoo</td></tr>
+
+                        <tr><td>Mushroom, spinach, mozzarella, ricotta, oregano, garlic and evoo (no tomato)</td></tr>
+                </tbody>
+            </table>
+            <br>
+
+            <form action="#SecOrder" id="menuorder">
+                <input type="submit" class="button" value="Decided? Order Now">
+            </form>
+    </section>
+
+    <section id="Sec5">
+        <br><br><br>
+        <h1 id="SecOrder"><strong><ins>Place Your Order:</ins></strong></h1>
+        <!--- BASE, Crust, Toppings, Extras, Delivery Type, Quantity, Payment Details-->
+
+            <p><h2><strong><ins>Please Give us your Details :</h2></ins></strong></p>
+
+            <form action="mailto:jam1donut@hotmail.com" method="POST" enctype="text/plain">
+
+                <fieldset id="fieldset01">
+                    <div>
+                        <label class="double" for="firstname">First Name* :</label>
+                        <Input type="text" name="firstname" required placeholder="Enter First Name"></Input> 
+                        <label style="float: right; margin-right: 366px;" for="cardname">Card Holder Name* :</label>
+                        <Input style="float: right; margin-right: -460px; width: 250px;" type="text" name="cardname" required placeholder="Enter Name as appears on card">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="lastname">Last Name* :</label>
+                        <Input type="text" name="lastname" required placeholder="Enter Last Name"></Input> 
+                        <label style="float: right; margin-right: 358px;" for="cardnumb">Enter Card Number* :</label>
+                        <Input style="float: right; margin-right: -460px; width: 250px;" type="text" name="cardnumb" required placeholder="Enter 16-Digit Card No.">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="customeremail">Email Address* :</label>
+                        <Input type="email" name="customeremail" required placeholder="Enter Your Email Address" style="width: 200px;"></Input> 
+                        <label style="float: right; margin-right: 332px;" for="carddate">Enter Card Expiry Date* :</label>
+                        <Input style="float: right; margin-right: -460px; width: 250px;" type="date" name="cardnumb" required>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="customeraddress">Delivery Address* :</label>
+                        <label style="float: right; margin-right: 380px;" for="cardcvv">Enter Card CVV* :</label>
+                        <Input style="float: right; margin-right: -460px; width: 250px;" type="text" name="cardcvv" placeholder="Enter 3-Digit No. on Card back" required>
+                        <br>
+                        <textarea name="customeraddress" required placeholder="Please Enter Your Delivery Address"></textarea>
+                        
+                    </div>
+                    <br>
+            </fieldset>
+
+            <p><h2><strong><ins>Select Your Food!</ins></strong></h2></p>
+            <p><h2><strong><ins>Pizzas :</ins></strong></h2></p>
+
+            <fieldset id="fieldset02">
+                <ul>
+                    <li>
+                    <label for="p1">Tomato sugo with mozzarella, fresh basil and evoo</label>
+                    <input type="number" name="p1" style="float: right; margin-right: 80px;"><br><br>
+                    </li>
+                    <li>
+                    <label for="p2">Tomato sugo with garlic, oregano and evoo</label>
+                    <input type="number" name="p2" style="float: right; margin-right: 80px;"><br><br>
+                    </li>
+                    <li>
+                    <label for="p3">Tomato sugo with capers, olives, anchovies, mozzarella, garlic and evoo</label>
+                    <input type="number" name="p3" style="float: right; margin-right: 80px;"><br><br>
+                    </li>
+                    <li>
+                    <label for="p4">Spianata spicy salami from Calabria with tomato sugo, mozzarella and evoo</label>
+                    <input type="number" name="p4" style="float: right; margin-right: 80px;"><br><br>
+                    </li>
+                    <li>
+                    <label for="p5">Prosciutto cotto (Italian cooked ham) with mushrooms, tomato sugo, mozzarella and evoo</label>
+                    <input type="number" name="p5" style="float: right; margin-right: 80px;"><br><br>
+                    </li>
+                    <li>
+                    <label for="p6">Roasted red peppers with spinach, tomato sugo, mozzarella, ricotta and evoo</label>
+                    <input type="number" name="p6" style="float: right; margin-right: 80px;"><br><br>
+                    </li>
+                    <li>
+                    <label for="p7">Fresh Tuscan Fennel sausage with sugo, mozzarella and evoo</label>
+                    <input type="number" name="p7" style="float: right; margin-right: 80px;"><br><br>
+                    </li>
+                    <li>
+                    <label for="p8">Mushroom, spinach, mozzarella, ricotta, oregano, garlic and evoo (no tomato)</label>
+                    <input type="number" name="p8" style="float: right; margin-right: 80px;"><br>
+                    </li>
+                </ul>
+            </fieldset>        
+            <br><br>
+
+            <div>
+                <label for="allergens"><h2><strong><ins>Any Allergy Information :</ins></strong></h2></label>
+                <textarea id="ta1" placeholder="Please Enter Any Allergy Information"></textarea>
+            <br>
+
+        <br>
+
+        <input id="submitbutton" type="submit" onclick="alert('Thanks for Your Order!')" value="Submit Your Order!"> 
+        </section>
+        </form>
+</body>
+
+
+</html>
